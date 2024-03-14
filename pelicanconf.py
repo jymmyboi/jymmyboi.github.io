@@ -1,12 +1,14 @@
 AUTHOR = 'jymmyboi'
 SITENAME = '@jymmyboi'
-SITEURL = ""
+SITEURL = "https://jymmyboi.xyz"
 
 PATH = "content"
 
 TIMEZONE = 'Australia/Adelaide'
 
-THEME='bootstrap2dark'
+THEME='bootstrap2-dark'
+
+OUTPUT_PATH = 'output'
 
 DEFAULT_LANG = 'English'
 
