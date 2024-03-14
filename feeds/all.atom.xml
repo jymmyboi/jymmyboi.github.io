@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>@jymmyboi</title><link href="https://jymmyboi.xyz/" rel="alternate"></link><link href="https://jymmyboi.xyz/feeds/all.atom.xml" rel="self"></link><id>https://jymmyboi.xyz/</id><updated>2024-03-02T00:00:00+10:30</updated><entry><title>That time I did IT work during a surgery</title><link href="https://jymmyboi.xyz/that-time-i-did-it-work-during-a-surgery.html" rel="alternate"></link><published>2024-03-02T00:00:00+10:30</published><updated>2024-03-02T00:00:00+10:30</updated><author><name>jymmyboi</name></author><id>tag:jymmyboi.xyz,2024-03-02:/that-time-i-did-it-work-during-a-surgery.html</id><summary type="html">&lt;p&gt;This is a story from my first ever official job in IT. I was working for a small MSP in Wagga with my housemate at the time. It was a chill job doing mostly project work when they needed me/when I was free from my retail job.&lt;/p&gt;
+&lt;p&gt;One of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a story from my first ever official job in IT. I was working for a small MSP in Wagga with my housemate at the time. It was a chill job doing mostly project work when they needed me/when I was free from my retail job.&lt;/p&gt;
+&lt;p&gt;One of these jobs was being the foot soldiers for a larger MSP in Brisbane for a day surgery in town. They were doing a migration to a new IP schema and needed us to work on the hardware that they couldn't connect to remotely (namely printers, etc.) This was an interesting one as we had to be fully scrubbed up for the job to move around the surgery even though we were the only two people in the entire building.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="My housemate and I in full hospital scrubs" src="https://jymmyboi.xyz/images/scrub_selfie.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;When it came to actually working the job, it was pretty stock standard fare getting contacted about certain cabling and IP's so that the team in Brisbane could get in and do their job, re labelling printers with their new IP's. Dealing with a cabinet full of spaghetti that we yearned to reorganise.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Server cabinet full of random cabling, very dishevelled" src="https://jymmyboi.xyz/images/server_cabinet_day_surgery.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The real shock to the system was when the employees started to arrive and the main contact at the surgery let me know one of the doctors were here to install the printers onto the laptop.&lt;/p&gt;
+&lt;p&gt;"You are fine with the sight of blood and needles?" She asked tentatively as she let me thorough the building.&lt;/p&gt;
+&lt;p&gt;"Yeah absolutely, nothing bothers me!" I reply quickly.&lt;/p&gt;
+&lt;p&gt;We sanitise our hands as she leads me through into a surgery &lt;strong&gt;IN PROGRESS&lt;/strong&gt; to install the printer (I believe it was surgery on a gentleman's back). It was such a surreal situation to be sitting there working through the Windows interface while behind me I can hear the steady beep of a heartrate monitor as the doctor talks to nurses. I quickly explained to the Doctor how to do it in the future and promptly left the room.&lt;/p&gt;
+&lt;p&gt;After all this was said and done, we only had one thing left. I got a call from the contact from the Brisbane team about a time clock for employee time sheets that needed reassigning. After looking it up, the way to reassign the IP is as follows:&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Hold down the Enter key for 5 seconds to enter the Quick Menu&lt;/li&gt;
+    &lt;li&gt;Press the number 2 two times&lt;/li&gt;
+    &lt;li&gt;The IP address will now be Displayed&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img alt="The networked timesheet machine" src="https://jymmyboi.xyz/images/bundy_time_clock.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;This job was an interesting one, even though I was only working for them for 2-3 months I did so much that helped with working under pressure and working with what I had at the time.&lt;/p&gt;
+&lt;p&gt;I may post other stories from working there, if I can get the details straight.&lt;/p&gt;</content><category term="misc"></category></entry></feed>
