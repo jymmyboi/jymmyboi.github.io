@@ -6,7 +6,7 @@ PATH = "content"
 
 TIMEZONE = 'Australia/Adelaide'
 
-THEME='SoMA2'
+THEME='bootstrap2-dark'
 
 OUTPUT_PATH = 'output'
 
