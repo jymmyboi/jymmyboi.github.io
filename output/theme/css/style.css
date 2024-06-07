@@ -8,9 +8,9 @@
 /* =================================================================== */
 /* Import Section
 ====================================================================== */
-@import url("base.css");                        /* Default Reset, Typography, Forms, etc. */
-@import url("responsive.css");                  /* Responsive Grid */
-@import url("facustom.css");                    /* Font Awesome custom CSS */
+@import url("base.css");				/* Default Reset, Typography, Forms, etc. */
+@import url("responsive.css");			/* Responsive Grid */
+@import url("icons.css");				/* Font Awesome Icons */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700");
 @import url("http://fonts.googleapis.com/css?family=Raleway:800");
 
@@ -260,11 +260,7 @@
 		width: 100%;
 	}
 
-	body {
-		padding-top: 0;
-		min-height: 100vh;
-		position: relative;
-		}
+	body { padding-top: 0; }
 
 	#header #logo {
 		width: 124px;
@@ -2090,7 +2086,7 @@ html[xmlns] .slides {display: block;}
 	left: 38%
 }
 
-.post-content { width: 100% }
+.post-content { margin: 0 0 0 89px }
 .medium .post-content {margin:0;}
 .post-content h2 a { color: #505050; }
 .post-content h2 a:hover { color: #707070; }
@@ -3665,9 +3661,6 @@ blockquote {
 /* Footer Bottom
 ====================================*/
 #footer-bottom {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
 	background-color: #a0a0a0;
 	padding: 20px 0 17px 0;
 	color: #fff;
