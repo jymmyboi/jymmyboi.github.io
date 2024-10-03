@@ -10,7 +10,7 @@ THEME='bootstrap2-dark'
 
 THEME_COLOR = 'navy'
 
-OUTPUT_PATH = 'output'
+OUTPUT_PATH = 'Docs'
 
 DEFAULT_LANG = 'English'
 
