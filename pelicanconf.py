@@ -6,7 +6,7 @@ PATH = "content"
 
 TIMEZONE = 'Australia/Adelaide'
 
-THEME='nice-blog'
+THEME='bootstrap2-dark'
 
 THEME_COLOR = 'navy'
 
