@@ -2,10 +2,6 @@ Title: Who am I
 
 ###Hi
 
-Part time coder.
+Game dev :)
 
-Part time system admin.
-
-Interested in cybersecurity.
-
-This is my blog to write stuff that I come across in CTFs and other coding projects I am working on.
+This is my blog to write stuff that I come across in learning and working on games and other coding projects I am working on.
