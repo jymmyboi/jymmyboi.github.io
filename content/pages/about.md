@@ -2,6 +2,6 @@ Title: Who am I
 
 ###Hi
 
-Game dev :)
+I am jymmyboi, a coder that is interested in cybersecurity, CTFs, gamedev, and most other things code.
 
-This is my blog to write stuff that I come across in learning and working on games and other coding projects I am working on.
+This is my blog for talking about stuff I am doing in the cyberspace.
