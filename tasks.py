@@ -149,11 +149,15 @@ def publish(c):
 def gh_pages(c):
     """Publish to GitHub Pages"""
     preview(c)
+
+    # Ensure the output path doesn't have trailing slashes
+    deploy_path = CONFIG["deploy_path"].rstrip("/")
+
+    # Run ghp-import with correct ordering and args
     c.run(
-        "ghp-import -b {github_pages_branch} "
-        "-m {commit_message} "
-        "{deploy_path} -p".format(**CONFIG)
+        f'ghp-import -n -p -m "{CONFIG["commit_message"]}" -b {CONFIG["github_pages_branch"]} {deploy_path}'
     )
+
 
 def pelican_run(cmd):
     cmd += " " + program.core.remainder  # allows to pass-through args to pelican

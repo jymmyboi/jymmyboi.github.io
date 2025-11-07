@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Test Draft</title>
+    <title>Making my first Bsky Bot</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="jymmyboi">
@@ -91,8 +91,8 @@
                         <h1>
                                 <a href=""
                                         rel="bookmark"
-                                        title="Permalink to Test Draft">
-                                        Test Draft
+                                        title="Permalink to Making my first Bsky Bot">
+                                        Making my first Bsky Bot
                                 </a>
                         </h1>
                 </header>
@@ -100,8 +100,8 @@
                 <div class="well">
 <footer class="post-info">
 <span class="label">Date</span>
-<abbr class="published" title="9999-12-31T23:59:59.999999+10:30">
-        <i class="icon-calendar"></i>
+<abbr class="published" title="2025-06-13T00:00:00+09:30">
+        <i class="icon-calendar"></i>Fri 13 June 2025
 </abbr>
 <span class="label">By</span>
 <a href="/author/jymmyboi.html"><i class="icon-user"></i>jymmyboi</a>
@@ -110,7 +110,26 @@
 
 
 </footer><!-- /.post-info -->                </div>
-                <p>AAAAA</p>
+                <h2>Context</h2>
+<p><strong>To begin here, this was going to be a twitter bot but I didn't want to pay to post one post a week.</strong></p>
+<p>I don't like corruption. I feel like the AFL (Australian Football League) should be a pretty clean operation for things like corruption but I feel like the league is rife with a lot of issues.</p>
+<p>One of the biggest issues I have found this year was the fact that a certain umpire by the name of Nick Foot has taken a job at SportsBet and the AFL and AFL Umpires Association has believed that this is just OK. I do not and so do a lot of other people in the community. It just doesn't pass the pub test.</p>
+<h2>What can I do?</h2>
+<p>The AFL umpire house create a roster ever week of the appointments for the week. I am not sure exactly when they come out but I know it is by 6pm-7pm Adelaide time. So I created a bot that scrapes the newest rounds appointments and posts when Nick Foot is umpiring.</p>
+<p>Is this petty?</p>
+<p>Yes.</p>
+<p>Did I learn a lot?</p>
+<p>Also yes.</p>
+<h2>What does the bot do?</h2>
+<p>Basically the flow of the code is as follows</p>
+<ul>
+    <li>Scrapes the HTML of the AFLUA appointments page</li>
+    <li>Finds the link for the PDF of the latest round</li>
+    <li>Downloads said PDF</li>
+    <li>Converts to a txt file</li>
+    <li>Analyses the text for when NF is umpiring</li>
+    <li>Posts it to Bsky</li>
+<ul/>
                 </div><!-- /.entry-content -->
         </article>
 </section>
