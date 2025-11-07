@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>@jymmyboi</title>
+    <title>Trying to make an AD server with Debian</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="jymmyboi">
@@ -65,7 +65,7 @@
             <ul class="nav">
                 <li><a href="https://jymmyboi.xyz/pages/who-am-i.html">Who am I</a></li>
                           <li class="divider-vertical"></li>
-                  <li >
+                  <li class="active">
                     <a href="https://jymmyboi.xyz/category/misc.html">
 						<i class="icon-folder-open icon-large"></i>misc
 					</a>
@@ -85,9 +85,51 @@
     <div class="container-fluid">
       <div class="row">
         <div class="span9" id="content">
-<ul>
-	<li><a href="category/misc.html">misc</a></li>
-</ul>
+<section id="content">
+        <article>
+                <header>
+                        <h1>
+                                <a href=""
+                                        rel="bookmark"
+                                        title="Permalink to Trying to make an AD server with Debian">
+                                        Trying to make an AD server with Debian
+                                </a>
+                        </h1>
+                </header>
+                <div class="entry-content">
+                <div class="well">
+<footer class="post-info">
+<span class="label">Date</span>
+<abbr class="published" title="2025-11-07T00:00:00+10:30">
+        <i class="icon-calendar"></i>Fri 07 November 2025
+</abbr>
+<span class="label">By</span>
+<a href="https://jymmyboi.xyz/author/jymmyboi.html"><i class="icon-user"></i>jymmyboi</a>
+<span class="label">Category</span>
+<a href="https://jymmyboi.xyz/category/misc.html"><i class="icon-folder-open"></i>misc</a>.
+
+
+</footer><!-- /.post-info -->                </div>
+                <p>I have been thinking of finally starting my homelab and now I actually work in a proper IT job, now is as good a time as ever.</p>
+<p>Starting with the idea of an Active Directory domain, I cannot afford Windows. Debian it is.</p>
+<h3>11:30pm</h3>
+<p>I have no idea about partitioning with Debian so I am just sort of flying by the seat of my pants right now. It's taking it's sweet time installing the base system. I am pretty sure I am encrypting it right!</p>
+<p>I am just sort of reading the prompts and guessing. FWIW this is just a test so that when I actually do spin up my proper physical server in my office. I can hit the ground running with a DC and then set up all my following containers/servers.</p>
+<h3>11:45pm</h3>
+<p>I have at the very least changed the network settings to be static.</p>
+<h3>11:50pm</h3>
+<p>Turns out you need to create a proper virtual switch to talk to the network. </p>
+<h3>11:58pm</h3>
+<p>Changing back to dhcp to see what the VM gets on the 'external' switch.</p>
+<h3>12:04am</h3>
+<p>Weirdly the disk was still a source for installing. I have now since removed this. This could have been my issue with the switch. It might not have been a network issue at all. Will check now.</p>
+<h3>12:15am</h3>
+<p>Got IP working. Fuck me that took too long. Dumb cunt behaviour.</p>
+<h3>12:30am</h3>
+<p>Got all the packages installed. Will continue tomorrow night I think.</p>
+                </div><!-- /.entry-content -->
+        </article>
+</section>
         </div><!--/span-->
 
                 <div class="span3 well sidebar-nav" id="sidebar">
