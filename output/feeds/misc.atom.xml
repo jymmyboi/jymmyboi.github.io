@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>@jymmyboi - misc</title><link href="https://jymmyboi.xyz/" rel="alternate"></link><link href="https://jymmyboi.xyz/feeds/misc.atom.xml" rel="self"></link><id>https://jymmyboi.xyz/</id><updated>2024-03-26T00:00:00+10:30</updated><entry><title>Bulk delete databases in MSSQL using Python</title><link href="https://jymmyboi.xyz/bulk-delete-databases-in-mssql-using-python.html" rel="alternate"></link><published>2024-03-26T00:00:00+10:30</published><updated>2024-03-26T00:00:00+10:30</updated><author><name>jymmyboi</name></author><id>tag:jymmyboi.xyz,2024-03-26:/bulk-delete-databases-in-mssql-using-python.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;THIS IS SUPER SIMPLE BUT I HAVE FOUND A LOT OF VALUE OUT OF THIS SCRIPT&lt;/strong&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>@jymmyboi - misc</title><link href="https://jymmyboi.xyz/" rel="alternate"/><link href="https://jymmyboi.xyz/feeds/misc.atom.xml" rel="self"/><id>https://jymmyboi.xyz/</id><updated>2025-11-07T00:00:00+10:30</updated><entry><title>Trying to make an AD server with Debian</title><link href="https://jymmyboi.xyz/ADwithDebian.html" rel="alternate"/><published>2025-11-07T00:00:00+10:30</published><updated>2025-11-07T00:00:00+10:30</updated><author><name>jymmyboi</name></author><id>tag:jymmyboi.xyz,2025-11-07:/ADwithDebian.html</id><summary type="html">&lt;p&gt;I have been thinking of finally starting my homelab and now I actually work in a proper IT job, now is as good a time as ever.&lt;/p&gt;
+&lt;p&gt;Starting with the idea of an Active Directory domain, I cannot afford Windows. Debian it is.&lt;/p&gt;
+&lt;h3&gt;11:30pm&lt;/h3&gt;
+&lt;p&gt;I have no idea about …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I have been thinking of finally starting my homelab and now I actually work in a proper IT job, now is as good a time as ever.&lt;/p&gt;
+&lt;p&gt;Starting with the idea of an Active Directory domain, I cannot afford Windows. Debian it is.&lt;/p&gt;
+&lt;h3&gt;11:30pm&lt;/h3&gt;
+&lt;p&gt;I have no idea about partitioning with Debian so I am just sort of flying by the seat of my pants right now. It's taking it's sweet time installing the base system. I am pretty sure I am encrypting it right!&lt;/p&gt;
+&lt;p&gt;I am just sort of reading the prompts and guessing. FWIW this is just a test so that when I actually do spin up my proper physical server in my office. I can hit the ground running with a DC and then set up all my following containers/servers.&lt;/p&gt;
+&lt;h3&gt;11:45pm&lt;/h3&gt;
+&lt;p&gt;I have at the very least changed the network settings to be static.&lt;/p&gt;
+&lt;h3&gt;11:50pm&lt;/h3&gt;
+&lt;p&gt;Turns out you need to create a proper virtual switch to talk to the network. &lt;/p&gt;
+&lt;h3&gt;11:58pm&lt;/h3&gt;
+&lt;p&gt;Changing back to dhcp to see what the VM gets on the 'external' switch.&lt;/p&gt;
+&lt;h3&gt;12:04am&lt;/h3&gt;
+&lt;p&gt;Weirdly the disk was still a source for installing. I have now since removed this. This could have been my issue with the switch. It might not have been a network issue at all. Will check now.&lt;/p&gt;
+&lt;h3&gt;12:15am&lt;/h3&gt;
+&lt;p&gt;Got IP working. Fuck me that took too long. Dumb cunt behaviour.&lt;/p&gt;
+&lt;h3&gt;12:30am&lt;/h3&gt;
+&lt;p&gt;Got all the packages installed. Will continue tomorrow night I think.&lt;/p&gt;</content><category term="misc"/></entry><entry><title>Bulk delete databases in MSSQL using Python</title><link href="https://jymmyboi.xyz/bulk-delete-databases-in-mssql-using-python.html" rel="alternate"/><published>2024-03-26T00:00:00+10:30</published><updated>2024-03-26T00:00:00+10:30</updated><author><name>jymmyboi</name></author><id>tag:jymmyboi.xyz,2024-03-26:/bulk-delete-databases-in-mssql-using-python.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;THIS IS SUPER SIMPLE BUT I HAVE FOUND A LOT OF VALUE OUT OF THIS SCRIPT&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;In my current position in software support, I need to restore multiple databases a week for different versions of our software. With that comes a lot of bloating of my local SQL instance.&lt;/p&gt;
 &lt;p&gt;For …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;THIS IS SUPER SIMPLE BUT I HAVE FOUND A LOT OF VALUE OUT OF THIS SCRIPT&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;In my current position in software support, I need to restore multiple databases a week for different versions of our software. With that comes a lot of bloating of my local SQL instance.&lt;/p&gt;
@@ -64,7 +83,7 @@
     &lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;The source code and such can be found at my &lt;a href="https://github.com/jymmyboi/MSSQL-Bulk-Database-Delete"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>That time I did IT work during a surgery</title><link href="https://jymmyboi.xyz/that-time-i-did-it-work-during-a-surgery.html" rel="alternate"></link><published>2024-03-02T00:00:00+10:30</published><updated>2024-03-02T00:00:00+10:30</updated><author><name>jymmyboi</name></author><id>tag:jymmyboi.xyz,2024-03-02:/that-time-i-did-it-work-during-a-surgery.html</id><summary type="html">&lt;p&gt;This is a story from my first ever official job in IT. I was working for a small MSP in Wagga with my housemate at the time. It was a chill job doing mostly project work when they needed me/when I was free from my retail job.&lt;/p&gt;
+&lt;p&gt;The source code and such can be found at my &lt;a href="https://github.com/jymmyboi/MSSQL-Bulk-Database-Delete"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</content><category term="misc"/></entry><entry><title>That time I did IT work during a surgery</title><link href="https://jymmyboi.xyz/that-time-i-did-it-work-during-a-surgery.html" rel="alternate"/><published>2024-03-02T00:00:00+10:30</published><updated>2024-03-02T00:00:00+10:30</updated><author><name>jymmyboi</name></author><id>tag:jymmyboi.xyz,2024-03-02:/that-time-i-did-it-work-during-a-surgery.html</id><summary type="html">&lt;p&gt;This is a story from my first ever official job in IT. I was working for a small MSP in Wagga with my housemate at the time. It was a chill job doing mostly project work when they needed me/when I was free from my retail job.&lt;/p&gt;
 &lt;p&gt;One of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a story from my first ever official job in IT. I was working for a small MSP in Wagga with my housemate at the time. It was a chill job doing mostly project work when they needed me/when I was free from my retail job.&lt;/p&gt;
 &lt;p&gt;One of these jobs was being the foot soldiers for a larger MSP in Brisbane for a day surgery in town. They were doing a migration to a new IP schema and needed us to work on the hardware that they couldn't connect to remotely (namely printers, etc.) This was an interesting one as we had to be fully scrubbed up for the job to move around the surgery even though we were the only two people in the entire building.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="My housemate and I in full hospital scrubs" src="https://jymmyboi.xyz/images/scrub_selfie.jpg"&gt;&lt;/p&gt;
@@ -83,4 +102,4 @@
 
 &lt;p&gt;&lt;img alt="The networked timesheet machine" src="https://jymmyboi.xyz/images/bundy_time_clock.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;This job was an interesting one, even though I was only working for them for 2-3 months I did so much that helped with working under pressure and working with what I had at the time.&lt;/p&gt;
-&lt;p&gt;I may post other stories from working there, if I can get the details straight.&lt;/p&gt;</content><category term="misc"></category></entry></feed>
+&lt;p&gt;I may post other stories from working there, if I can get the details straight.&lt;/p&gt;</content><category term="misc"/></entry></feed>

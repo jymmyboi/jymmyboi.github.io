@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Making my first Bsky Bot</title>
+    <title>Trying to make an AD server with Debian</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="jymmyboi">
 
     <!-- Le styles -->
-    <link rel="stylesheet" href="/theme/css/bootstrap.dark.css" type="text/css" />
+    <link rel="stylesheet" href="https://jymmyboi.xyz/theme/css/bootstrap.dark.css" type="text/css" />
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -30,10 +30,10 @@
         font-size: 6pt;
      }
     </style>
-    <link href="/theme/css/bootstrap-responsive.dark.css" rel="stylesheet">
-        <link href="/theme/css/font-awesome.css" rel="stylesheet">
+    <link href="https://jymmyboi.xyz/theme/css/bootstrap-responsive.dark.css" rel="stylesheet">
+        <link href="https://jymmyboi.xyz/theme/css/font-awesome.css" rel="stylesheet">
 
-    <link href="/theme/css/pygments.css" rel="stylesheet">
+    <link href="https://jymmyboi.xyz/theme/css/pygments.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -41,12 +41,12 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="/theme/images/favicon.ico">
-    <link rel="apple-touch-icon" href="/theme/images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/theme/images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/theme/images/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="https://jymmyboi.xyz/theme/images/favicon.ico">
+    <link rel="apple-touch-icon" href="https://jymmyboi.xyz/theme/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://jymmyboi.xyz/theme/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://jymmyboi.xyz/theme/images/apple-touch-icon-114x114.png">
 
-    <link href="/" type="application/atom+xml" rel="alternate" title="@jymmyboi ATOM Feed" />
+    <link href="https://jymmyboi.xyz/" type="application/atom+xml" rel="alternate" title="@jymmyboi ATOM Feed" />
 
   </head>
 
@@ -60,19 +60,19 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="/index.html">@jymmyboi </a>
+          <a class="brand" href="https://jymmyboi.xyz/index.html">@jymmyboi </a>
           <div class="nav-collapse">
             <ul class="nav">
-                <li><a href="/pages/who-am-i.html">Who am I</a></li>
+                <li><a href="https://jymmyboi.xyz/pages/who-am-i.html">Who am I</a></li>
                           <li class="divider-vertical"></li>
                   <li class="active">
-                    <a href="/category/misc.html">
+                    <a href="https://jymmyboi.xyz/category/misc.html">
 						<i class="icon-folder-open icon-large"></i>misc
 					</a>
                   </li>
 
                           <ul class="nav pull-right">
-                                <li><a href="/archives.html"><i class="icon-th-list"></i>Archives</a></li>
+                                <li><a href="https://jymmyboi.xyz/archives.html"><i class="icon-th-list"></i>Archives</a></li>
                           </ul>
 
             </ul>
@@ -91,8 +91,8 @@
                         <h1>
                                 <a href=""
                                         rel="bookmark"
-                                        title="Permalink to Making my first Bsky Bot">
-                                        Making my first Bsky Bot
+                                        title="Permalink to Trying to make an AD server with Debian">
+                                        Trying to make an AD server with Debian
                                 </a>
                         </h1>
                 </header>
@@ -100,36 +100,33 @@
                 <div class="well">
 <footer class="post-info">
 <span class="label">Date</span>
-<abbr class="published" title="2025-06-13T00:00:00+09:30">
-        <i class="icon-calendar"></i>Fri 13 June 2025
+<abbr class="published" title="2025-11-07T00:00:00+10:30">
+        <i class="icon-calendar"></i>Fri 07 November 2025
 </abbr>
 <span class="label">By</span>
-<a href="/author/jymmyboi.html"><i class="icon-user"></i>jymmyboi</a>
+<a href="https://jymmyboi.xyz/author/jymmyboi.html"><i class="icon-user"></i>jymmyboi</a>
 <span class="label">Category</span>
-<a href="/category/misc.html"><i class="icon-folder-open"></i>misc</a>.
+<a href="https://jymmyboi.xyz/category/misc.html"><i class="icon-folder-open"></i>misc</a>.
 
 
 </footer><!-- /.post-info -->                </div>
-                <h2>Context</h2>
-<p><strong>To begin here, this was going to be a twitter bot but I didn't want to pay to post one post a week.</strong></p>
-<p>I don't like corruption. I feel like the AFL (Australian Football League) should be a pretty clean operation for things like corruption but I feel like the league is rife with a lot of issues.</p>
-<p>One of the biggest issues I have found this year was the fact that a certain umpire by the name of Nick Foot has taken a job at SportsBet and the AFL and AFL Umpires Association has believed that this is just OK. I do not and so do a lot of other people in the community. It just doesn't pass the pub test.</p>
-<h2>What can I do?</h2>
-<p>The AFL umpire house create a roster ever week of the appointments for the week. I am not sure exactly when they come out but I know it is by 6pm-7pm Adelaide time. So I created a bot that scrapes the newest rounds appointments and posts when Nick Foot is umpiring.</p>
-<p>Is this petty?</p>
-<p>Yes.</p>
-<p>Did I learn a lot?</p>
-<p>Also yes.</p>
-<h2>What does the bot do?</h2>
-<p>Basically the flow of the code is as follows</p>
-<ul>
-    <li>Scrapes the HTML of the AFLUA appointments page</li>
-    <li>Finds the link for the PDF of the latest round</li>
-    <li>Downloads said PDF</li>
-    <li>Converts to a txt file</li>
-    <li>Analyses the text for when NF is umpiring</li>
-    <li>Posts it to Bsky</li>
-<ul/>
+                <p>I have been thinking of finally starting my homelab and now I actually work in a proper IT job, now is as good a time as ever.</p>
+<p>Starting with the idea of an Active Directory domain, I cannot afford Windows. Debian it is.</p>
+<h3>11:30pm</h3>
+<p>I have no idea about partitioning with Debian so I am just sort of flying by the seat of my pants right now. It's taking it's sweet time installing the base system. I am pretty sure I am encrypting it right!</p>
+<p>I am just sort of reading the prompts and guessing. FWIW this is just a test so that when I actually do spin up my proper physical server in my office. I can hit the ground running with a DC and then set up all my following containers/servers.</p>
+<h3>11:45pm</h3>
+<p>I have at the very least changed the network settings to be static.</p>
+<h3>11:50pm</h3>
+<p>Turns out you need to create a proper virtual switch to talk to the network. </p>
+<h3>11:58pm</h3>
+<p>Changing back to dhcp to see what the VM gets on the 'external' switch.</p>
+<h3>12:04am</h3>
+<p>Weirdly the disk was still a source for installing. I have now since removed this. This could have been my issue with the switch. It might not have been a network issue at all. Will check now.</p>
+<h3>12:15am</h3>
+<p>Got IP working. Fuck me that took too long. Dumb cunt behaviour.</p>
+<h3>12:30am</h3>
+<p>Got all the packages installed. Will continue tomorrow night I think.</p>
                 </div><!-- /.entry-content -->
         </article>
 </section>
@@ -142,13 +139,13 @@
     <li><a href="https://www.python.org/"><i class="icon-external-link"></i>Python.org</a></li>
     <li><a href="https://palletsprojects.com/p/jinja/"><i class="icon-external-link"></i>Jinja2</a></li>
 <li class="nav-header"><h4><i class="icon-home icon-large"></i> social</h4></li>
-<li><a href="/" rel="alternate"><i class="icon-bookmark icon-large"></i>atom feed</a></li>
+<li><a href="https://jymmyboi.xyz/" rel="alternate"><i class="icon-bookmark icon-large"></i>atom feed</a></li>
     <li><a href="https://github.com/jymmyboi"><i class="icon-github-sign icon-large"></i>github</a></li>
     <li><a href="https://twitter.com/jymmyboi"><i class="icon-twitter-sign icon-large"></i>twitter</a></li>
 
 <li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>Categories</h4></li>
 <li>
-<a href="/category/misc.html">
+<a href="https://jymmyboi.xyz/category/misc.html">
     <i class="icon-folder-open icon-large"></i>misc
 </a>
 </li>
@@ -176,9 +173,10 @@
 
 
 
+
     <!-- Le javascript -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/theme/js/jquery-1.7.2.min.js"></script>
-    <script src="/theme/js/bootstrap.min.js"></script>
+    <script src="https://jymmyboi.xyz/theme/js/jquery-1.7.2.min.js"></script>
+    <script src="https://jymmyboi.xyz/theme/js/bootstrap.min.js"></script>
   </body>
 </html>
