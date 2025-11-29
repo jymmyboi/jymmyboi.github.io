@@ -1,0 +1,144 @@
+/* Dark mode Pygments highlight */
+.highlight .hll {
+    background-color: #333333;
+}
+
+.highlight {
+    background: #1e1e1e;
+    color: #e0e0e0;
+}
+
+/* Comments */
+.highlight .c,
+.highlight .ch,
+.highlight .cm,
+.highlight .cp,
+.highlight .cpf,
+.highlight .c1,
+.highlight .cs {
+    color: #6a9955;
+    font-style: italic;
+}
+
+/* Keywords */
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt,
+.highlight .ow {
+    color: #569cd6;
+}
+
+/* Literals */
+.highlight .l,
+.highlight .ld,
+.highlight .m,
+.highlight .mb,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .il {
+    color: #b5cea8;
+}
+
+/* Strings */
+.highlight .s,
+.highlight .sa,
+.highlight .sb,
+.highlight .sc,
+.highlight .dl,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .s1,
+.highlight .ss {
+    color: #ce9178;
+}
+
+/* Names */
+.highlight .n,
+.highlight .na,
+.highlight .nc,
+.highlight .ne,
+.highlight .nf,
+.highlight .nn,
+.highlight .nx,
+.highlight .no,
+.highlight .nv,
+.highlight .py,
+.highlight .bp,
+.highlight .fm,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi,
+.highlight .vm {
+    color: #e0e0e0;
+}
+
+/* Name.Attribute */
+.highlight .na {
+    color: #9cdcfe;
+}
+
+/* Name.Decorator */
+.highlight .nd {
+    color: #c586c0;
+}
+
+/* Operators & punctuation */
+.highlight .o,
+.highlight .p {
+    color: #d4d4d4;
+}
+
+/* Generic/Error/Insert/Delete */
+.highlight .gd {
+    color: #f44747;
+}
+
+.highlight .gi {
+    color: #4ec9b0;
+}
+
+.highlight .gr {
+    color: #f44747;
+}
+
+.highlight .gt {
+    color: #f44747;
+}
+
+.highlight .gh {
+    color: #569cd6;
+    font-weight: bold;
+}
+
+.highlight .gu {
+    color: #c586c0;
+}
+
+.highlight .gp {
+    color: #808080;
+}
+
+.highlight .gs {
+    font-weight: bold;
+}
+
+.highlight .ge {
+    font-style: italic;
+}
+
+/* Whitespace (invisible) */
+.highlight .w {
+    color: #1e1e1e;
+    text-decoration: underline;
+}

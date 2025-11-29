@@ -6,14 +6,14 @@ PATH = "content"
 
 TIMEZONE = 'Australia/Adelaide'
 
-THEME='bootstrap2-dark'
+THEME='Peli-Kiera'
 
 THEME_COLOR = 'navy'
 
 OUTPUT_PATH = 'output'
 
-DEFAULT_LANG = 'English'
-
+DEFAULT_LANG = 'en'
+DEFAULT_CATEGORY = 'Posts'
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
